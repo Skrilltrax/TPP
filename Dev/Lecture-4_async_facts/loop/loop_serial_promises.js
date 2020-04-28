@@ -25,6 +25,7 @@ let fs = require("fs");
   }
   return file1WillBeReadPromise;
 }
+
 promiseMultiFileReader().then(function(data){
   console.log("file 5 will be printed");
   console.log(data);
