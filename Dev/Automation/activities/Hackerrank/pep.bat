@@ -1,0 +1,1 @@
+node "moderator.js" "D:\Projects\TPP\Dev\Automation\activities\Hackerrank\credentials.json" godkrny
