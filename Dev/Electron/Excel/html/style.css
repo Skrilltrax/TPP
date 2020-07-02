@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu {
+    height: 22px;
+    border: 1px solid red;
+}
+
+.menu-options {
+    height: 56px;
+    border: 1px solid green;
+}
+
+.formula-bar {
+    height: 26px;
+    border: 1px solid yellow;
+}
+
+.cell-container {
+    height: calc(100vh - 124px);
+    background-color: cyan;
+    overflow: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    min-width: 50px;
+    min-height: 25px;
+    border: 1px solid black;
+}
+
+.sheets {
+    height: 20px;
+    border: 1px solid darkslategray;
+}
