@@ -4,7 +4,6 @@ public class PrintMazePaths {
 
     public static void main(String[] args) throws Exception {
         try (Scanner sc = new Scanner(System.in)) {
-            Scanner sc = new Scanner(System.in);
             int n = sc.nextInt();
             int m = sc.nextInt();
             printMazePaths(0, 0, n - 1, m - 1, "");
