@@ -1,7 +1,8 @@
-import java.io.*;
+package DP;
+
 import java.util.*;
 
-public class climbStairsVarJump {
+public class ClimbStairVarJump {
 
     public static void main(String[] args) throws Exception {
         // write your code here

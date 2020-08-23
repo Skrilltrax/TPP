@@ -1,4 +1,4 @@
-package DS.Foundation.Basics;
+package Basics;
 
 import java.util.*;
 
